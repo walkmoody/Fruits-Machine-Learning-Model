@@ -11,7 +11,7 @@ model = load_model("fruit_model.h5")
 # ---------------------------
 # LOAD IMAGE
 # ---------------------------
-img_path = r"C:\Fruits\apple_PNG12503.png"  # path to your test image
+img_path = r"C:\Fruits\Melon.jpg"  # path to your test image
 
 img = image.load_img(img_path, target_size=(128,128))
 img_array = image.img_to_array(img) / 255.0  # scale pixel values
